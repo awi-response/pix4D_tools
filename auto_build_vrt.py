@@ -7,7 +7,7 @@ def build_vrt(string):
     os.system(s)
 	
 def main():
-    for s in ['rgb', 'nir']:
+    for s in ['rgb', 'nir', 'dsm']:
         
         try:
             build_vrt(s)
